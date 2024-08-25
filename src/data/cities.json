@@ -1,0 +1,45 @@
+{
+    "states": [
+      {
+        "name": "Maharashtra",
+        "cities": ["Mumbai", "Pune", "Nagpur"]
+      },
+      {
+        "name": "Karnataka",
+        "cities": ["Bangalore", "Mysore", "Hubli"]
+      },
+      {
+        "name": "Tamil Nadu",
+        "cities": ["Chennai", "Coimbatore", "Madurai"]
+      },
+      {
+        "name": "Delhi",
+        "cities": ["New Delhi", "Delhi Cantonment", "Dwarka"]
+      },
+      {
+        "name": "Uttar Pradesh",
+        "cities": ["Lucknow", "Kanpur", "Varanasi"]
+      },
+      {
+        "name": "West Bengal",
+        "cities": ["Kolkata", "Howrah", "Darjeeling"]
+      },
+      {
+        "name": "Gujarat",
+        "cities": ["Ahmedabad", "Surat", "Vadodara"]
+      },
+      {
+        "name": "Rajasthan",
+        "cities": ["Jaipur", "Udaipur", "Jodhpur"]
+      },
+      {
+        "name": "Madhya Pradesh",
+        "cities": ["Bhopal", "Indore", "Gwalior"]
+      },
+      {
+        "name": "Punjab",
+        "cities": ["Chandigarh", "Ludhiana", "Amritsar"]
+      }
+    ]
+  }
+  

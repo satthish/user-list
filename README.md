@@ -1,40 +1,46 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Task Details
 
-## Getting Started
+Task Details:
 
-First, run the development server:
+1. Create a table for user list.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+2. Table  columns  - Name, email, Linkedin URL, Gender, Address, Edit
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3. Table can be expandable, show the address when it is expanded.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+4. Have a "ADD" button top right of the table and use a form to get the above user details.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+5. Add necessary validations for the form fields.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+6. Place an "Edit" button in each row under the Edit column.  Enable "EDIT" functionality by using the same form
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+7. Also include the delete option with confirmation pop-up before delete
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+## System Overview
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The System is a simple user inteface with option to list , add, update and delete(CRUD). It is build using Next.js for the frontend and api, and json files for data and configurations. It involves a data grid for listing the data and a form for add and delete.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Architechture
 
-## Deploy on Vercel
+1. Frontend: Next.js / MUI (UI Components)
+2. Data Management: Static JSON Files for both location and users data
+3. Form Validation: Formik for forms and Yup for validation
+4. State Management: Context Api for state management
+5. Config: JSON config file for defining the rules and configurations
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Modules
+- Data Management module: User & location api is created in `/api/cities` and `/api/users` end point with static data.
+- User List Module: Displays the list of users with expandable rows for address details.
+- User Form Module: Handles the addition and editing of users with validation.
+- Config Module: Manages settings for form fields (e.g., character limits, editability).
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Steps to run
+
+To install the packages
+```npm install```
+To run development version 
+```npm run dev```
+To build and start the production version
+```npm run build```
+```npm start```

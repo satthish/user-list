@@ -1,0 +1,30 @@
+{
+    "name": {
+      "minLength": 2,
+      "maxLength": 50,
+      "editable": true
+    },
+    "email": {
+      "pattern": "^[^@\\s]+@[^@\\s]+\\.[^@\\s]+$",
+      "editable": true
+    },
+    "linkedinURL": {
+      "pattern": "^(https?:\\/\\/)?(www\\.)?linkedin\\.com\\/.*$",
+      "editable": true
+    },
+    "address": {
+      "address1": {
+        "minLength": 5,
+        "editable": true
+      },
+      "address2": {
+        "minLength": 5,
+        "editable": true
+      },
+      "pin": {
+        "pattern": "^[0-9]{6}$",
+        "editable": true
+      }
+    }
+  }
+  

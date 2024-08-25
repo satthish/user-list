@@ -1,0 +1,73 @@
+[
+    {
+      "id": 1,
+      "name": "XXXX User 1",
+      "email": "user1@xxxx.com",
+      "linkedinURL": "https://www.linkedin.com/in",
+      "gender": "Male",
+      "address": {
+        "address1": "123, address1",
+        "address2": "address 2",
+        "state": "Tamil Nadu",
+        "city": "Tiruppur",
+        "pin": "641687"
+      }
+    },
+    {
+      "id": 2,
+      "name": "XXXX User 2",
+      "email": "user2@xxxx.com",
+      "linkedinURL": "https://www.linkedin.com/in",
+      "gender": "Female",
+      "address": {
+        "address1": "123, address1",
+        "address2": "address 2",
+        "state": "Tamil Nadu",
+        "city": "Tiruppur",
+        "pin": "641687"
+      }
+    },
+    {
+      "id": 3,
+      "name": "XXXX User 3",
+      "email": "user3@xxxx.com",
+      "linkedinURL": "https://www.linkedin.com/in",
+      "gender": "Male",
+      "address": {
+        "address1": "123, address1",
+        "address2": "address 2",
+        "state": "Tamil Nadu",
+        "city": "Tiruppur",
+        "pin": "641687"
+      }
+    },
+    {
+      "id": 4,
+      "name": "XXXX User 4",      
+      "email": "user4@xxxx.com",
+      "linkedinURL": "https://www.linkedin.com/in",
+      "gender": "Female",
+      "address": {
+        "address1": "123, address1",
+        "address2": "address 2",
+        "state": "Tamil Nadu",
+        "city": "Tiruppur",
+        "pin": "641687"
+      }
+    },
+    {
+      "id": 5,
+      "email": "user5@xxxx.com",
+      "name": "XXXX User 5",
+      "linkedinURL": "https://www.linkedin.com/in",
+      "gender": "Male",
+      "address": {
+        "address1": "123, address1",
+        "address2": "address 2",
+        "state": "Tamil Nadu",
+        "city": "Tiruppur",
+        "pin": "641687"
+      }
+    }
+  ]
+  
