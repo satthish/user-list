@@ -22,7 +22,7 @@ export const UserProvider: React.FC<{ children: React.ReactNode }> = ({ children
   };
 
   // Delete the user from the list using id
-  const deleteUser = (id: number) => {
+  const deleteUser = (id: any) => {
     setUserList(prev => prev.filter(user => user.id !== id));
   };
 

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { 
     Table, 
     TableBody, 
@@ -30,7 +30,7 @@ const UserList = () => {
   const [selectedUserId, setSelectedUserId] = useState<number | null>(null);
   const [selectedUserName, setSelectedUserName] = useState<string | null>(null);
   const router = useRouter();
-  const { userList } = useUserContext();
+  const { userList, deleteUser } = useUserContext();
 
   const handleRowClick = (id: number) => {
     setExpandedRowId(prev => (prev === id ? null : id));
@@ -69,9 +69,11 @@ const UserList = () => {
     };
   
     const handleConfirmDelete = () => {
-      
+      if(selectedUserId != null){
+        deleteUser(selectedUserId);
+      }   
     };
-
+    
   return (
     <Container maxWidth="lg">
       <Grid 
